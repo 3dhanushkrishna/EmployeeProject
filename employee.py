@@ -1,13 +1,13 @@
 import sqlite3
 connection = sqlite3.connect("company.db")
-connection.execute('''CREATE TABLE EMPLOYEE(
-                      EMPLOYEECODE INTEGER PRIMARY KEY AUTOINCREMENT,
-                      EMPLOYEENAME TEXT,
-                      DESIGNATION TEXT,
-                      SALARY INTEGER,
-                      COMPANYNAME TEXT,
-                      MOBILENO INTEGER
-);''')
+# connection.execute('''CREATE TABLE EMPLOYEE(
+#                       EMPLOYEECODE INTEGER PRIMARY KEY AUTOINCREMENT,
+#                       EMPLOYEENAME TEXT,
+#                       DESIGNATION TEXT,
+#                       SALARY INTEGER,
+#                       COMPANYNAME TEXT,
+#                       MOBILENO INTEGER
+# );''')
 
 print("table created successfully")
 getEmployeeName = input("Enter the name: ")
